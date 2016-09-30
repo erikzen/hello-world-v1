@@ -1,13 +1,13 @@
 (function() {
-
   return {
     events: {
-      'app.activated':'doSomething'
+      'app.activated':'renderDefault'
     },
-
-    doSomething: function() {
-        alert('something');
+    renderDefault: function() {
+        var currentUser = this.currentUser().name();
+        this.switchTo('hello', {
+            username: currentUser
+        });
     }
   };
-
 }());

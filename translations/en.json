@@ -1,12 +1,18 @@
 {
   "app": {
-    "description": "Play the famous zen tunes in your help desk.",
-    "name": "Buddha Machine"
+    "description": "Just a little demo javascript app.",
+    "name": "Hello World v1"
   },
-  "loading": "Welcome to this Sample App",
+  "loading": "Loading the Hello Wrld",
   "fetch": {
     "done": "Good",
-    "fail": "failed to fetch information from the server"
+    "fail": "Failed to load."
+  },
+  "hello":{
+      "main": {
+        "title": "About this value ( where/when/what )",
+        "value": "Just a little message for fun."
+      }
   },
   "id": "ID",
   "email": "Email",
