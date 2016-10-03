@@ -1,0 +1,5 @@
+
+h2, h2 strong {
+    text-shadow: 1px 1px 0px red, -1px -1px 0px red, -1px 1px 0px red, 1px -1px 0px red;
+    letter-spacing: 0.2em;
+}
